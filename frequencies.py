@@ -5,7 +5,7 @@ def frequencies(items):
     frequencies = {}
 
     for item in items:
-        if item in frequencies:
+        if str(item) in frequencies:
             frequencies[str(item)] += 1
         else:
             frequencies[str(item)] = 1
