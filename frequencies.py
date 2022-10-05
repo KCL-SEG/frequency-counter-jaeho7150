@@ -8,7 +8,7 @@ def frequencies(items):
     # Iterate through all items
     for item in items:
         # convert item into strings
-        itemStr = str(item)
+        itemStr = str(items)
         # Increment count of each item by 1
         if itemStr in frequencies:
             frequencies[itemStr] += 1
